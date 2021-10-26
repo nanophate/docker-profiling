@@ -1,0 +1,6 @@
+description: >
+  This command outputs nework usage in docker
+steps:
+  - run:
+      name: Output Network usage
+      command: <<include(scripts/network.sh)>>
